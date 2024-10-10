@@ -3,6 +3,7 @@ import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeSlug from "rehype-slug";
 import rehypeHighlight from "rehype-highlight";
 import 'highlight.js/styles/monokai-sublime.css';
+import Video from "@/app/components/Video";
 
 type Filetree = {
   tree: [
@@ -37,6 +38,9 @@ export async function getPostByName(
     tags: string[];
   }>({
     source: rawMDX,
+    components: {
+        Video
+    },
     options: {
       parseFrontmatter: true,
       mdxOptions: {
