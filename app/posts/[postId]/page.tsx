@@ -3,7 +3,7 @@ import { getPostsMeta, getPostByName } from "@/lib/posts"
 import { notFound } from "next/navigation"
 import Link from "next/link"
 
-export const revalidate = 0 //change later
+export const revalidate = 86400 //one day
 
 type Props = {
     params: {
@@ -11,15 +11,15 @@ type Props = {
     }
 }
 
-// export async function generateStaticParams() {
-//     const posts = await getPostsMeta()
+export async function generateStaticParams() {
+    const posts = await getPostsMeta()
 
-//     if(!posts) return []
+    if(!posts) return []
 
-//     return posts.map((post) => ({
-//         postId: post.id
-//     }))
-// }
+    return posts.map((post) => ({
+        postId: post.id
+    }))
+}
 
 export async function generateMetadata({ params: { postId } }: Props) {
 

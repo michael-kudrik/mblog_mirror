@@ -4,6 +4,7 @@ import rehypeSlug from "rehype-slug";
 import rehypeHighlight from "rehype-highlight";
 import 'highlight.js/styles/monokai-sublime.css';
 import Video from "@/app/components/Video";
+import CustomImage from "@/app/components/CustomImage";
 
 type Filetree = {
   tree: [
@@ -39,7 +40,8 @@ export async function getPostByName(
   }>({
     source: rawMDX,
     components: {
-        Video
+        Video,
+        CustomImage,
     },
     options: {
       parseFrontmatter: true,
