@@ -9,7 +9,31 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'primary': 'rgb(60 74 89 / 1)',
+        'secondary': 'rgb(238 226 206)',
+      },
+      typography: {
+        DEFAULT: {
+          css: {
+            'h1, h2, h3, h4, h5, h6': {
+              'a': {
+                textDecoration: 'none',
+                fontWeight: 'inherit',
+              },
+            },
+            a: {
+              textDecoration: 'none',
+              '&:hover': {
+                textDecoration: 'underline',
+              },
+            },
+          },
+        },
+      },
+    },
+    
   },
   plugins: [
     require('@tailwindcss/typography'),

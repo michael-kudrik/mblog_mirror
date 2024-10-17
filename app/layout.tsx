@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import {IBM_Plex_Sans} from "next/font/google";
+import { IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 
@@ -9,9 +9,9 @@ export const metadata: Metadata = {
 };
 
 const ibmPlexSans = IBM_Plex_Sans({
-  weight: ['400', '700'],  // Specify the weights you need
-  display: 'swap',  // Specify the weights you need
-  subsets: ['latin'],             // Optional: Specify the character subsets
+  weight: ["400", "700"], // Specify the weights you need
+  display: "swap", // Specify the weights you need
+  subsets: ["latin"], // Optional: Specify the character subsets
 });
 
 export default function RootLayout({
@@ -21,10 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={ibmPlexSans.className}>
-      <body className="dark:bg-slate-800">
+      <body className="dark:bg-primary">
         <Navbar />
         <main className="px-4 md:=x-6 prose prose-xl prose-slate dark:prose-invert mx-auto">
-        {children}
+          {children}
         </main>
       </body>
     </html>
