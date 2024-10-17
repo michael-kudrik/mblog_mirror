@@ -9,9 +9,9 @@ export const metadata: Metadata = {
 };
 
 const ibmPlexSans = IBM_Plex_Sans({
-  weight: ["400", "700"], // Specify the weights you need
-  display: "swap", // Specify the weights you need
-  subsets: ["latin"], // Optional: Specify the character subsets
+  weight: ["400","600", "700"], // Specify the weights you need
+  display: "swap", 
+  subsets: ["latin"], 
 });
 
 export default function RootLayout({
