@@ -6,7 +6,7 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'raw.githubusercontent.com',
             port: '',
-            pathname: '/michaelkudrik/BlogPosts/main/images/**',
+            pathname: '/michael-kudrik/BlogPosts/main/images/**',
             },
         ],
     },
