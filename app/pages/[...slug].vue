@@ -11,8 +11,10 @@ if (!page.value) {
 </script>
 
 <template>
+  <article class="prose ">
   <ContentRenderer
     v-if="page"
     :value="page"
   />
+  </article>
 </template>
