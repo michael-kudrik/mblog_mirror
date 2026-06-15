@@ -38,11 +38,11 @@ I referenced [this tutorial](https://www.youtube.com/watch?v=QWYG_67ADv4) when I
 I will detail some of the reasons why I think this is the superior method of note taking:
 
 - [Bi-directional links](https://help.obsidian.md/Plugins/Backlinks): Obsidian utilizes what they call Backlinks, meaning you can reference another note from the current one. This is useful for all sorts of things and lets you navigate to topics that may have been mentioned earlier in your studies, but are brought back up later.
-- **Cross Platform: **Obsidian can be installed on all major operating systems, including iOS.
-- **Customization: **Obsidian allows for the installation of plugins ranging from spell checkers to inline mathematics graph visualizations. You can also change the colors and fonts of everything that you see on screen.
-- **Distraction Free: **Since it is a standalone application, it prevents you from the urge to open a new tab in your browser. It also comes clutter free by default and is a lot simpler than something like say Notion.
-- **Markdown: **Writing notes in markdown is where the true strength of Obsidian lies. As opposed to say something like google docs, markdown allows for the embedding of images, videos, and the creation of headers and code blocks. Additionally the syntax is very simple and can be learned in around fifteen minutes. 
-- **Git: **Obsidian can be used in conjunction with git version control meaning you can back up all of your notes to a remote repository. This means that you can no longer use the excuse of your dog eating your homework. 
+- **Cross Platform:** Obsidian can be installed on all major operating systems, including iOS.
+- **Customization:** Obsidian allows for the installation of plugins ranging from spell checkers to inline mathematics graph visualizations. You can also change the colors and fonts of everything that you see on screen.
+- **Distraction Free:** Since it is a standalone application, it prevents you from the urge to open a new tab in your browser. It also comes clutter free by default and is a lot simpler than something like say Notion.
+- **Markdown:** Writing notes in markdown is where the true strength of Obsidian lies. As opposed to say something like google docs, markdown allows for the embedding of images, videos, and the creation of headers and code blocks. Additionally the syntax is very simple and can be learned in around fifteen minutes. 
+- **Git:** Obsidian can be used in conjunction with git version control meaning you can back up all of your notes to a remote repository. This means that you can no longer use the excuse of your dog eating your homework. 
 
 Below is an image of what my obsidian workspace looks like.
 
