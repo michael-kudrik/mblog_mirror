@@ -2,6 +2,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  site: {
+    url: 'blog.mikekudrik.boats'
+  },
   app: {
     head: {
       link: [
@@ -27,7 +30,7 @@ export default defineNuxtConfig({
       ]
     }
   },
-  modules: ['@nuxt/content', '@nuxt/image'],
+  modules: ['@nuxt/content', '@nuxt/image', '@nuxt/fonts', '@nuxtjs/sitemap'],
   content: {
     build: {
       markdown: {
@@ -40,6 +43,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['./app/assets/main.css'],
   vite: {
+    optimizeDeps: {
+      include: []
+    },
     plugins: [tailwindcss()]
   },
   compatibilityDate: '2024-04-03'

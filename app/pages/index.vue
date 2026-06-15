@@ -17,7 +17,7 @@ function formatDate(date) {
 
 <template>
   <main class="max-w-3xl mx-auto px-6 py-12">
-    <NuxtImg src="/welcome.jpeg" alt="Mike waving hello image." class="border-4 mb-7"/>
+    <NuxtImg src="/welcome.jpeg" alt="Mike waving hello image." class="border-4 mb-7" fetchpriority="high" preload/>
     <ul class="space-y-8">
       <li v-for="post in posts" :key="post.path">
         <NuxtLink :to="post.path" class="group">

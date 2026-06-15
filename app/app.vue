@@ -1,4 +1,4 @@
-<script>
+<script setup>
 useHead({
   title: "Mike's Blog"
 })

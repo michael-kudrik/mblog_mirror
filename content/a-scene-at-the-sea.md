@@ -13,7 +13,7 @@ Tonight I watched a Japanese live-action movie with a close buddy of mine. He re
 
 *A Scene at the Sea*  is a movie directed by Takeshi Kitano. Released in 1991, it takes place around the same time that short boarding was going through significant advancements. The movie flows peacefully with very little spoken dialogue, and a focus on storytelling. It follows our main character Shigeru who works as a garbage collector and is deaf. He stumbles upon a surfboard on one of his garbage runs and becomes destined to take up surfing. 
 
-::nuxt-img{src="https://raw.githubusercontent.com/michael-kudrik/BlogPosts/main/images/SeaScene/SceneAtTheSea1.jpg" alt="Image of shoreline during surf contest"}
+::nuxt-img{src="https://raw.githubusercontent.com/michael-kudrik/BlogPosts/main/images/SeaScene/SceneAtTheSea1.jpg" alt="Image of shoreline during surf contest" loading="lazy"}
 ::
 
 ## Warning Spoilers Ahead!
@@ -22,7 +22,7 @@ The movie starts off with Shigeru carrying on with his daily garbage collection 
 
 It is also at this time that we are introduced to his also deaf girlfriend. The two of them share a special relationship, devoid of almost all communication. They instead rely on an innate sense of understanding of one another. 
 
-::nuxt-img{src="https://raw.githubusercontent.com/michael-kudrik/BlogPosts/main/images/SeaScene/ShigeruAndGirl.png" alt="Shigeru and his girlfriend"}
+::nuxt-img{src="https://raw.githubusercontent.com/michael-kudrik/BlogPosts/main/images/SeaScene/ShigeruAndGirl.png" alt="Shigeru and his girlfriend" loading="lazy"}
 ::
   
 Eventually the board breaks, and Shigeru buys himself a brand new high-performance surfboard (Pretty awesome, right?) .  He continues to practice and eventually attracts the eye of the surf shop owner, who gifts him an old wetsuit, and encourages him to go to a surf competition. 
@@ -33,7 +33,7 @@ The cinematography complements the story and does not hold back in the slightest
 
 Shigeru returns to the surf contest, and this time he makes it out into the water, where he performs well enough to land him a trophy among his group. This point of the film is the climax of Shigeru's hard work, and we can see that in the pictures he takes 
 
-::nuxt-img{src="https://raw.githubusercontent.com/michael-kudrik/BlogPosts/main/images/SeaScene/A_Scene_at_the_Sea_037.jpg" alt="Surf contest"}
+::nuxt-img{src="https://raw.githubusercontent.com/michael-kudrik/BlogPosts/main/images/SeaScene/A_Scene_at_the_Sea_037.jpg" alt="Surf contest" loading="lazy"}
 ::
 
 Throughout the film, there are lots of silent and slow moments that are pulled together by the beautiful soundtrack created by Joe Hisaishi the same man who created the iconic soundtracks for various *Studio Ghibli* films we know and love. The music was built for the visuals and captured the aesthetic almost perfectly. With subtle orchestral arrangements, the vastness of the ocean was captured and the intimate journey of the characters was further brought to fruition. The music mirrored the pacing of the scenes yet was never overwhelming.
@@ -42,7 +42,7 @@ Throughout the film, there are lots of silent and slow moments that are pulled t
 
 The ending of this film brought the both of us to our knees. It truly is one to remember, and is probably one of the most poetic meditations on love, loss, and the nature of our ocean. In the final moments, our film transcends the simple narrative and achieves something profoundly moving. 
 
-::nuxt-img{src="https://raw.githubusercontent.com/michael-kudrik/BlogPosts/main/images/SeaScene/A_Scene_at_the_Sea_047.jpg" alt="surfboard adrift on the shore"}
+::nuxt-img{src="https://raw.githubusercontent.com/michael-kudrik/BlogPosts/main/images/SeaScene/A_Scene_at_the_Sea_047.jpg" alt="surfboard adrift on the shore" loading="lazy"}
 ::
 
 Shigeru's girlfriend is seen standing at the beach, looking out at the waves. The camera holds its place for a drawn-out length of time, leaving the viewer wondering when it will cut to Shigeru surfing. However, the camera does not move, and instead we see Shigeru's surfboard floating on the edge of the ocean shore. 
@@ -53,7 +53,7 @@ His death is handled with the same quiet dignity and restraint that characterize
 
 What makes this narrative so impactful is that it aligns with the film's themes. The same ocean that gave Shigeru purpose and joy ultimately claims him. There is no melodrama, and his death is presented as part of the natural order, like the ebb and flow of the waves themselves. 
 
-::nuxt-img{src="https://raw.githubusercontent.com/michael-kudrik/BlogPosts/main/images/SeaScene/A_Scene_at_the_Sea_050.jpg" alt="saying goodbye to shigeru"}
+::nuxt-img{src="https://raw.githubusercontent.com/michael-kudrik/BlogPosts/main/images/SeaScene/A_Scene_at_the_Sea_050.jpg" alt="saying goodbye to shigeru" loading="lazy"}
 ::
 
 The way that the film handles the aftermath transforms what would have been a tragic ending to something more contemplative and spiritually resonant. 
@@ -64,7 +64,7 @@ Kitano's choice to keep the death off-screen respects the film's established vis
 
 ## Closing Thoughts
 
-::nuxt-img{src="https://raw.githubusercontent.com/michael-kudrik/BlogPosts/main/images/SeaScene/A_Scene_at_the_Sea_052.jpg" alt="Shigeru and Coworker enjoying dinner"}
+::nuxt-img{src="https://raw.githubusercontent.com/michael-kudrik/BlogPosts/main/images/SeaScene/A_Scene_at_the_Sea_052.jpg" alt="Shigeru and Coworker enjoying dinner" loading="lazy"}
 ::
 
 *A Scene at the Sea* masterfully tells a story of passion, love, and loss through its minimalist approach to storytelling. As a surfer, watching Shigeru's journey from finding a broken surfboard to the tragic end in the ocean he grew to love deeply moved me. Kitano's direction, combined with Hisaishi's lush soundtrack, create a film that stands it's ground without the need of dialogue. 
