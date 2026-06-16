@@ -1,0 +1,43 @@
+/*@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*/
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-background: oklch(0.403 0.0311 250.37);
+  --color-foreground: oklch(0.917 0.0297 80.65);
+  --font-sans: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+}
+.prose {
+  max-width: 65ch;
+  font-family: var(--font-sans);
+  --tw-prose-body: var(--color-foreground);
+  --tw-prose-headings: var(--color-foreground);
+  --tw-prose-bold: var(--color-foreground);
+  --tw-prose-counters: var(--color-foreground);
+  --tw-prose-bullets: var(--color-foreground);
+  --tw-prose-quotes: var(--color-foreground);
+  --tw-prose-code: var(--color-foreground);
+  --tw-prose-hr: color-mix(in oklch, var(--color-foreground), transparent 80%);
+
+  /* force the hyprlinks to use white*/
+  --tw-prose-links: var(--color-foreground);
+  a {
+    color: var(--color-foreground);
+    font-weight: 600;
+  }
+}
+
+.prose code::before,
+.prose code::after {
+  content: none;
+}

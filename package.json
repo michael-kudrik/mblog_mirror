@@ -1,37 +1,24 @@
 {
-  "name": "mblog",
-  "version": "0.1.0",
+  "name": "mkblog",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "postbuild": "next-sitemap"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
   },
   "dependencies": {
-    "@types/node": "^22.7.5",
-    "@types/react": "^18.3.11",
-    "@types/react-dom": "^18.3.0",
-    "eslint": "^9.12.0",
-    "eslint-config-next": "^14.2.14",
-    "highlight.js": "^11.10.0",
-    "next": "^14.2.15",
-    "next-mdx-remote": "^5.0.0",
-    "next-sitemap": "^4.2.3",
-    "react": "^18",
-    "react-dom": "^18",
-    "rehype-autolink-headings": "^7.1.0",
-    "rehype-highlight": "^7.0.0",
-    "rehype-slug": "^6.0.0",
-    "sharp": "^0.33.5",
-    "typescript": "^5.6.2"
-  },
-  "devDependencies": {
-    "@tailwindcss/aspect-ratio": "^0.4.2",
-    "@tailwindcss/typography": "^0.5.15",
-    "postcss": "^8",
-    "react-icons": "^5.3.0",
-    "tailwindcss": "^3.4.1"
+    "@nuxt/content": "^3.14.0",
+    "@nuxt/fonts": "0.14.0",
+    "@nuxt/image": "2.0.0",
+    "@nuxtjs/sitemap": "8.2.1",
+    "@tailwindcss/typography": "^0.5.20",
+    "@tailwindcss/vite": "^4.3.1",
+    "better-sqlite3": "^12.10.1",
+    "nuxt": "^4.4.8",
+    "tailwindcss": "^4.3.1",
+    "vue": "^3.5.38",
+    "vue-router": "^5.1.0"
   }
 }
