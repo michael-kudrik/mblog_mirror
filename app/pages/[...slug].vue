@@ -33,6 +33,7 @@ function formatDate(date: string) {
         <ContentRenderer :value="page" />
       </article>
 
+      <IssoComments :page-id="route.path" :title="page.title" />
       <div v-if="page.tags && page.tags.length" class="mt-12 pt-8">
         <h3 class="text-xl font-semibold mb-4">Related:</h3>
         <div class="flex flex-wrap gap-4">
@@ -46,6 +47,7 @@ function formatDate(date: string) {
           </NuxtLink>
         </div>
       </div>
+
 
       <div class="mt-12">
         <NuxtLink to="/" class="text-primary hover:underline flex items-center gap-2">
