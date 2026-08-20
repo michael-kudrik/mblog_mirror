@@ -60,10 +60,8 @@ onMounted(() => {
 </script>
 
 <template>
-    <ClientOnly>
         <section id="isso-thread" :data-title="title" :data-isso-id="pageId"
             class="mt-12 pt-8 border-t border-slate-200 dark:border-slate-800">
             <noscript>Javascript needs to be activated to view comments.</noscript>
         </section>
-    </ClientOnly>
 </template>
