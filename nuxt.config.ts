@@ -41,7 +41,7 @@ export default defineNuxtConfig({
     }
   },
   devtools: { enabled: true },
-  css: ['./app/assets/main.css'],
+  css: ['~/assets/main.css'],
   vite: {
     optimizeDeps: {
       include: []

@@ -1,0 +1,65 @@
+<!-- app/components/IssoComments.vue -->
+<script setup lang="ts">
+interface Props {
+  title?: string
+  pageId?: string
+}
+const props = defineProps<Props>()
+
+declare global {
+  interface Window {
+    Isso?: {
+      init: () => void
+      fetchComments: () => void
+    }
+  }
+}
+
+useHead({
+  script: [
+    {
+      key: 'isso-embed',
+      src: 'https://comments.mikekudrik.boats/js/embed.min.js',
+      'data-isso': 'https://comments.mikekudrik.boats/',
+      'data-isso-css': 'true',
+      'data-isso-sorting': 'newest',
+      'data-isso-default-lang': 'en',
+      'data-isso-max-comments-top': '10',
+      'data-isso-max-comments-nested': '5',
+      'data-isso-reveal-on-click': '5',
+      'data-isso-avatar': 'true',
+      'data-isso-vote': 'true',
+      async: true,
+    },
+  ],
+})
+
+function refetch() {
+  if (window.Isso?.fetchComments) {
+    window.Isso.fetchComments()
+  }
+}
+
+watch(
+  () => props.pageId,
+  async () => {
+    await nextTick()
+    refetch()
+  }
+)
+
+onMounted(() => {
+  refetch()
+})
+</script>
+
+<template>
+  <section
+    id="isso-thread"
+    :data-title="title"
+    :data-isso-id="pageId"
+    class="mt-12 pt-8 border-t border-slate-200 dark:border-slate-800"
+  >
+    <noscript>Javascript needs to be activated to view comments.</noscript>
+  </section>
+</template>
