@@ -72,9 +72,14 @@ h4.isso-thread-heading {
 
 .isso-input-wrapper {
   display: flex;
-  flex-wrap: wrap;
   gap: 0.5rem;
+  flex-direction: column;
   margin-top: 0.5rem;
+}
+
+#isso-thread .isso-input-wrapper input {
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .isso-input-wrapper input {
@@ -102,8 +107,7 @@ h4.isso-thread-heading {
 
 /* comment list*/
 .isso-comment {
-  padding: 1rem 0;
-  border-top: 1px solid oklch(0.35 0.02 250);
+  flex-direction: column;
 }
 
 .isso-comment-header {
@@ -115,9 +119,7 @@ h4.isso-thread-heading {
 }
 
 .isso-avatar {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
+  width: 48px;
   flex-shrink: 0;
 }
 
@@ -125,13 +127,23 @@ h4.isso-thread-heading {
   color: var(--color-foreground);
 }
 
+.isso-text-wrapper {
+  flex: 1;
+}
+
 .isso-follow-up {
   margin-left: 1.5rem;
   padding-left: 1rem;
-  border-left: 2px solid oklch(0.35 0.02 250);
+  border-left: 2px dashed oklch(0.343 0.0311 250.37);
 }
 
 /* action buttons: reply, edit, delete, vote */
+.isso-auth-section {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+}
 .isso-comment-footer button,
 .isso-comment-footer a,
 .isso-button-bar button {
@@ -148,10 +160,11 @@ h4.isso-thread-heading {
   opacity: 1;
 }
 
-.isso-vote {
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
+#isso-thread .isso-votes,
+#isso-thread .isso-upvote,
+#isso-thread .isso-downvote,
+#isso-thread .isso-comment-footer > .isso-spacer {
+  display: none !important;
 }
 
 /* errors */
