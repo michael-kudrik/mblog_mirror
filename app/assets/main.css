@@ -114,6 +114,12 @@ h4.isso-thread-heading {
   align-items: start;
 }
 
+#isso-thread > .isso-comment {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid oklch(0.4 0.02 250);
+  margin-bottom: 1rem;
+}
+
 .isso-comment-header {
   display: flex;
   align-items: center;
@@ -178,6 +184,10 @@ h4.isso-thread-heading {
 .isso-comment-footer button:hover,
 .isso-button-bar button:hover {
   opacity: 1;
+}
+
+.isso-comment-footer button {
+  margin-left: auto;
 }
 
 #isso-thread .isso-votes,
