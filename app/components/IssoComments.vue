@@ -32,6 +32,7 @@ useHead({
             'data-isso-avatar': 'true',
             'data-isso-avatar-bg': '#2d3a49',
             'data-isso-vote': 'false',
+            'data-isso-author-hashes': 'c9caa0f9f48e',
             async: true,
         },
     ],
