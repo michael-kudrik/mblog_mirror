@@ -31,7 +31,7 @@ useHead({
             'data-isso-reveal-on-click': '5',
             'data-isso-avatar': 'true',
             'data-isso-avatar-bg':'#2d3a49',
-            'data-isso-vote': 'true',
+            'data-isso-vote': 'false',
             async: true,
         },
     ],
