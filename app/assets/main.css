@@ -122,7 +122,12 @@ h4.isso-thread-heading {
   flex-shrink: 0;
 }
 
-.isso-avatar.isso-is-page-author, .isso-avatar svg, .isso-avatar img {
+.isso-avatar.isso-is-page-author {
+  border: 1px solid oklch(0.7987 0.0482 179.06);
+}
+
+.isso-avatar svg,
+.isso-avatar img {
   border: 1px solid oklch(0.7987 0.0482 179.06);
 }
 
