@@ -30,16 +30,19 @@ useHead({
             'data-isso-max-comments-nested': '5',
             'data-isso-reveal-on-click': '5',
             'data-isso-avatar': 'true',
-            'data-isso-avatar-bg':'#2d3a49',
+            'data-isso-avatar-bg': '#2d3a49',
             'data-isso-vote': 'false',
             async: true,
         },
     ],
 })
 
-function refetch() {
+//check every  150ms to try and refetch
+function refetch(tries = 20) {
     if (window.Isso?.fetchComments) {
         window.Isso.fetchComments()
+    } else if (tries > 0) {
+        setTimeout(() => refetch(tries - 1), 150)
     }
 }
 
