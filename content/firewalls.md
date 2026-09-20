@@ -16,7 +16,7 @@ For this class, we had access to the schools Proxmox cluster. This meant that ea
 
 Below is a screenshot of the Proxmox environment.
 
-::nuxt-img{src="https://raw.githubusercontent.com/navidrome/navidrome/master/.github/screenshots/ss-desktop-player.png"}
+::nuxt-img{src="https://raw.githubusercontent.com/michael-kudrik/BlogPosts/858ddde5bfb1eb044014a234f69a3364ee9d3e36/images/firewallprox_1.png"}
 ::
 
 The firewall was managed through the designated management interface which we visited at *172.16.42.92*. 
