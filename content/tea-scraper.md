@@ -15,11 +15,13 @@ This goes without saying, but you will need some way to analyze the html of the 
 
 ## Set Up
 1. Install Selenium 
+
 ```bash
 pip install selenium
 ```
 2. [Install WebDrivers](https://www.selenium.dev/documentation/webdriver/)
 3. Import Needed Libraries
+
 ```python
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -29,12 +31,14 @@ from selenium.webdriver.support import expected_conditions as EC
 
 ## The Code
 After importing the necessary Libraries, we need to set the url and driver. I chose to use the website steepster.com to act as the site being scraped. The reason the link begins on page 13, is to remove any fluctuation when it comes to class or XPATH of the next button. 
+
 ```python
 url = 'https://steepster.com/teas?page=13&sort=rating'
 driver = webdriver.Chrome()
 driver.get(url)
 ```
 Below is the rest of the code needed. 
+
 ```python
 with open('output.txt', 'a', encoding='utf-8') as file:
     while True:
@@ -59,6 +63,7 @@ with open('output.txt', 'a', encoding='utf-8') as file:
         except NoSuchElementException:
             break
 ```
+
 In the first line is where I created a text file to store the scraped text. Next I created a while loop which is used to find the container which has the elements we are looking to scrape. In our case, the names of the tea and their entry count were in an element named 'tea'.
 ::nuxt-img{src="https://raw.githubusercontent.com/michael-kudrik/BlogPosts/main/images/TeaScrape1.jpg" alt="Explanation of element locations"}
 ::

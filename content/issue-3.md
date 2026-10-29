@@ -54,9 +54,6 @@ According to their homepage, Moonlight allows you to play PC games on almost any
 
 I have been learning about networking in one of my cybersecurity classes recently, and we got onto the discussion of domains. A domain is composed of three parts that are displayed below.
 
-::nuxt-img{src="https://love2dev.com/img/domain-name-structure-diagram-720x345.png"}
-::
-
 1. The **domain name** is probably the easiest to identify. My domain is mikekudrik, while some other examples are google or microsoft 
 2. The **sub-domain** is whatever a website provisions it to be. The page you are on right now is a subdomain (blog) of my home website (mikekudrik)
 3. The **top-level domain**, or TLD, is purchased along with the domain name from an [ICANN](https://www.icann.org/)-accredited domain name registrar, and is typically paid for and renewed on a yearly basis. The TLD of my site is .boats

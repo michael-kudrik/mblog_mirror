@@ -36,6 +36,16 @@ export default defineNuxtConfig({
       markdown: {
         highlight: {
           theme: 'houston',
+          langs: [
+            'gleam',
+            'python',
+            'java',
+            'c',
+            'fish',
+            'docker',
+            'dockerfile',
+            'systemd'
+          ]
         }
       }
     }
