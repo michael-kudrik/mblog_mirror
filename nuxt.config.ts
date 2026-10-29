@@ -31,6 +31,9 @@ export default defineNuxtConfig({
     }
   },
   modules: ['@nuxt/content', '@nuxt/image', '@nuxt/fonts', '@nuxtjs/sitemap'],
+  sitemap: {
+    zeroRuntime: true, // do not need server stuff since we end up deploying static
+  },
   content: {
     build: {
       markdown: {
